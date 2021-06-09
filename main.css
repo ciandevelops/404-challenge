@@ -1,0 +1,114 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+/* Heading Styles */
+/* nav p {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+
+  font-family: "Inconsolata";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  color: #333333;
+}
+
+.left-sidebar img {
+  position: absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 37.11%;
+}
+
+.right-sidebar {
+}
+
+.title {
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+
+.sub-title {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+
+button {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  background: #333333;
+}
+
+.button {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+/* letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+}
+footer p {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+/* text-align: center;
+  align-items: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+} */
