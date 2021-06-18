@@ -8,53 +8,13 @@
   --primary-color: #333333;
   --secondary-color: #4f4f4f;
 }
-/* Layout */
-.container {
-  height: 100vh;
-}
 
-.main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+/* Header  */
+.header {
+  padding-bottom: 10vh;
+  padding-top: 4vh;
 }
-
-@media (max-width: 1200px) {
-  .main {
-    flex-direction: column;
-  }
-}
-
-.right-sidebar * {
-  margin: 25px 0;
-}
-
-footer {
-  padding-top: 40px;
-}
-footer p {
-  text-align: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #bdbdbd;
-}
-
-footer p a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Typography */
-nav p {
-  position: absolute;
-  width: 133px;
-  height: 25px;
-  left: 77px;
-  top: 40px;
-
+.heading {
   font-family: Inconsolata;
   font-style: normal;
   font-weight: bold;
@@ -65,6 +25,7 @@ nav p {
   color: var(--primary-color);
 }
 
+/* Typography  */
 .title {
   font-family: Space Mono;
   font-style: normal;
@@ -82,126 +43,47 @@ nav p {
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.035em;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
-
-button {
-  background: var(--primary-color);
-  width: 216px;
-  height: 68px;
+.right-side > * {
+  margin-bottom: 50px;
 }
-
 .button {
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 21px;
+
   letter-spacing: -0.035em;
   text-transform: uppercase;
-  color: white;
-}
-/* Heading Styles */
-/* nav p {
-  position: absolute;
-  width: 133px;
-  height: 25px;
-  left: 77px;
-  top: 40px;
-
-  font-family: "Inconsolata";
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 24px;
-  line-height: 25px;
-  letter-spacing: -0.08em;
-  color: #333333;
-}
-
-.left-sidebar img {
-  position: absolute;
-  left: 5.35%;
-  right: 57.21%;
-  top: 24.54%;
-  bottom: 37.11%;
-}
-
-.right-sidebar {
-}
-
-.title {
-  position: absolute;
-  width: 586px;
-  height: 190px;
-  left: 735px;
-  top: 265px;
-
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 95px;
-  letter-spacing: -0.035em;
-}
-
-.sub-title {
-  position: absolute;
-  width: 381px;
-  height: 108px;
-  left: 736px;
-  top: 491px;
-
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.035em;
-}
-
-button {
-  position: absolute;
-  width: 216px;
-  height: 68px;
-  left: 740px;
-  top: 663px;
-  background: #333333;
-}
-
-.button {
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 21px;
-  /* identical to box height */
-
-/* letter-spacing: -0.035em;
-  text-transform: uppercase;
-
   color: #ffffff;
 }
+
+button {
+  width: 216px;
+  height: 68px;
+  background: var(--primary-color);
+}
+
+/* Footer */
 footer {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  align-items: center;
+  padding-top: 10vh;
 }
 footer p {
-  color: #bdbdbd;
+  text-align: center;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-
-/* text-align: center;
-  align-items: center;
+  color: var(--secondary-color);
 }
 
 footer p a {
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
-} */
+}
+
+footer p a:hover {
+  color: inherit;
+}
